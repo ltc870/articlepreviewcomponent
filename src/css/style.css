@@ -61,6 +61,10 @@ body {
   z-index: 5;
 }
 
+.footer.show {
+  visibility: hidden;
+}
+
 .footer-container {
   display: flex;
   align-items: center;
@@ -94,8 +98,6 @@ body {
   padding: .5em;
   border-radius: 50%;
   margin-left: 4em;
-  position: relative;
-  z-index: 9;
 }
 
 .fa-share:hover,
@@ -118,10 +120,6 @@ body {
   top: -116px;
   z-index: 3;
   transition: .3s ease-in-out;
-}
-
-.social-media.show {
-  left: 0;
 }
 
 .social-media-text {
