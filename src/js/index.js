@@ -9,12 +9,7 @@ console.log(socialMedia);
 const socialMediaShare = document.querySelector("#social-media-share");
 console.log(socialMediaShare);
 
-shareBtn.addEventListener("click", () => {
-    footer.classList.add("hide");
-    socialMedia.classList.add("show");
-});
-
-socialMediaShare.addEventListener("click", () => {
-    footer.classList.remove("hide");
-    socialMedia.classList.remove("show");
+shareBtn.addEventListener("click", (event) => {
+    socialMedia.classList.toggle("show");
+    event.currentTarget.classList.toggle("active");
 });
