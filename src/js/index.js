@@ -1,7 +1,6 @@
 "use strict";
 
 const shareBtn = document.getElementById("share");
-const footer = document.querySelector("#footer");
 const socialMedia = document.querySelector("#social-media");
 
 shareBtn.addEventListener("click", (event) => {
